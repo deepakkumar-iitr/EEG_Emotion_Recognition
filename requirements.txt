@@ -1,0 +1,10 @@
+sklearn
+pandas
+numpy
+matplotlib
+random
+scipy
+pywt
+mne
+find_peaks
+peak_widths
