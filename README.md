@@ -34,9 +34,18 @@ Just run the below commands in any cell of the jupyter notebook
 All the data folders named above are available at the given google Drive Link:
 https://drive.google.com/drive/folders/1dMnwtof4tPlnu27n63vWE3kAJU9P5cB8?usp=sharing
 
-### How to run the Code
-1. Clone the given github repository to your local machine.
-2. Download all the data folders from the above google drive link and put it in the same directory  where git repository is available. 
+### How to run the Code Using Jupyter NoteBook
+1. Clone the given GitHub repository to your local machine.
+2. Download all the data folders from the above Google Drive link and put it in the same directory  where git repository is available. 
 3. Open "ModelFile.ipynb" jupyter notebook file and replace the data files paths if needed with their respective locations.  
 4. Run all the cells of "ModelFile.ipynb" file and you will be able to reproduce the results.
+5. After completion of the running process you will be able to see the validation results and there will be one csv file named "Test_Predictions.csv" in the same working directory, containing the test predictions.
+
+### How to run the Code Using Google Colab
+1. Clone the given GitHub repository to your local machine.
+2. Download all the data folders from the above Google Drive link and put it in the same directory  where git repository is available. 
+3. Put "ModelFile.ipynb" file and all the data folders in one folder in your Goolge Drive.
+4. Open "ModelFile.ipynb" jupyter notebook file and replace the data files paths, if needed, with their respective locations (with appropreate folder names as given in the code).
+5. Run the above commands to install pywt, mne, scipy, find_peaks, and peak_widths, if needed.  
+5. Run all the cells of "ModelFile.ipynb" file and you will be able to reproduce the results.
 5. After completion of the running process you will be able to see the validation results and there will be one csv file named "Test_Predictions.csv" in the same working directory, containing the test predictions.
